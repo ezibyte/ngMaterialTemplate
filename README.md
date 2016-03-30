@@ -1,4 +1,4 @@
-MIT License
+Angular Material Template
 -----------
 
 The project is adaption of _John Papa's Bootstrap Angular Template_ to **Angular Material Template**. The project follows modular approach and allows developer to freely add/remove module based on development required.
