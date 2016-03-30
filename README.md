@@ -6,6 +6,10 @@ The project is adaption of _John Papa's Bootstrap Angular Template_ to **Angular
 > Feel free to use this template and do send us your suggestions.
 > 
 
+## Screenshots
+
+![Screenshot](https://github.com/ezibyte/ngMaterialTemplate/blob/master/screenshots/version_100.png)
+
 ## Prerequisites
 
 1. Install [Node.js](http://nodejs.org)
