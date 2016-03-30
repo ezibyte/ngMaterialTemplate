@@ -1,0 +1,19 @@
+<div class="ez-full-height" ng-controller="SidebarController as vm">
+    <md-sidenav
+            md-disable-backdrop="false"
+            md-is-locked-open="$mdMedia('gt-sm')"
+            md-component-id="left"
+            hide-print
+            class="ez-full-height ez-sidenav">
+        <md-toolbar class="md-theme-indigo">
+            <h1 class="md-toolbar-tools">Ezibyte Technologies</h1>
+        </md-toolbar>
+        <md-list class="ez-sidenav-list" ng-cloak="true">
+
+            <md-list-item ng-repeat="r in vm.navRoutes" ng-click="vm.fired(r.name)" ng-class="vm.isCurrent(r)">
+                <md-icon class="ez-sidenav-icon">{{r.settings.icon}}</md-icon>
+                <p>{{r.settings.name}}</p>
+            </md-list-item>
+        </md-list>
+    </md-sidenav>
+</div>

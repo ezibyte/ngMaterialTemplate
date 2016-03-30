@@ -1,0 +1,31 @@
+{
+  "name": "ngMaterialTemplate",
+  "version": "0.0.1",
+  "description": "Angular Material Template",
+  "authors": [
+    "Paras Mendiratta"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bardjs": "^0.1.8",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "material-design-icons": "^2.2.3",
+    "angular-material": "^1.0.6",
+    "font-awesome": "^4.5.0",
+    "jquery": "^2.2.2",
+    "moment": "^2.12.0",
+    "angular-ui-router": "^0.2.18",
+    "angular-local-storage": "^0.2.7",
+    "angular-sanitize": "^1.5.3"
+  },
+  "overrides": {}
+}

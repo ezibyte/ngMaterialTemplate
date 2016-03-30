@@ -1,0 +1,31 @@
+<div flex layout="row" ng-controller="ShellController as vm" class="ez-full-height">
+
+
+    <div ng-include="'app/layout/sidebar/sidebar.html'" class="ez-full-height"></div>
+    <md-content flex id="content">
+        <!-- Container #1  (Toolbar) -->
+        <md-toolbar layout="row">
+
+            <div class="md-toolbar-tools">
+                <md-button class="md-icon-button" aria-label="Settings" hide-gt-sm ng-click="vm.toggle()">
+                    <md-icon aria-label="Menu" class="material-icons">menu</md-icon>
+                </md-button>
+                <h2>
+                    <span ng-bind="pageTitle"></span>
+                </h2>
+                <span flex></span>
+                <md-button class="md-icon-button" aria-label="Favorite" ng-click="vm.like()">
+                    <md-icon aria-label="Favorite" class="material-icons" style="color: yellow;">favorite</md-icon>
+                </md-button>
+                <md-button class="md-icon-button" aria-label="More">
+                    <md-icon aria-label="More" class="material-icons">more_vert</md-icon>
+                </md-button>
+            </div>
+        </md-toolbar>
+
+        <div ui-view flex layout="row" class="ez-content-view"></div>
+
+    </md-content>
+
+
+</div>
