@@ -5,7 +5,7 @@
 (function () {
     'use strict';
 
-    var core = angular.module('core');
+    var core = angular.module('app.core');
 
 
     var config = {
